@@ -9,8 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"
   />
-  <link rel="stylesheet" href="styles.css" />
-</head>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         <link rel=”stylesheet” href=”styles.css”>
     </head>
         <body>
@@ -25,6 +26,7 @@
                 <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras"></a>
                 <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"></a>
             </header>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         </body>
         <header class="cabeçalho">
             <div class="container"
@@ -71,4 +73,23 @@
           </section>
           <section class="carrossel">
             <h2 class="carrossel__titulo">Novos lançamentos</h2>
-          </section>
+          <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
